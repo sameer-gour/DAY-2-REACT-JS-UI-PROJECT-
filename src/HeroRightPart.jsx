@@ -2,6 +2,36 @@
 import React from 'react';
 import HRPContent from './HRPContent';
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function HeroRightPart() {
   let imgs = [
     { img: "https://i.pinimg.com/736x/84/b9/f5/84b9f59473d6f088fddb1c5c37f06556.jpg" },
@@ -22,7 +52,7 @@ function HeroRightPart() {
   ];
 
   return (
-    <div className="h-full w-[70%] flex flex-nowrap gap-5 p-5 overflow-x-auto overflow-y-hidden">
+    <div className="h-full w-[65%] flex flex-nowrap gap-5 p-5 overflow-x-auto overflow-y-hidden">
       {imgs.map((elem, idx) => (
         <HRPContent imgs={elem} idx={idx} key={idx} />
       ))}
